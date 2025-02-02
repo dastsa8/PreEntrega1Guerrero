@@ -1,0 +1,183 @@
+/* Estilos generales */
+.logo {
+    width: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-main {
+    width: 1000px;
+}
+
+/* Encabezado */
+.header {
+    background-color: #cebc9e; 
+    padding-top: 15px; 
+    padding-bottom: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: normal;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Sección principal */
+.container {
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu-btn:hover {
+    background-color: #0056b3;
+}
+
+.menu-btn {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Sección de productos */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-3 {
+    flex: 0 0 25%;
+    padding: 15px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el formulario */
+.form {
+    display: grid;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Footer */
+.footer {
+    background-color: #cebc9e;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.footer .nav {
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .nav-link {
+    color: #007bff;
+    font-weight: normal;
+}
+
+.footer .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de tarjetas (menu) */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: .375rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
